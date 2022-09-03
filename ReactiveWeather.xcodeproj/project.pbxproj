@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A5B016928BFD84C00C471CD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B016828BFD84C00C471CD /* Tests_iOS.swift */; };
-		9A5B016B28BFD84C00C471CD /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B016A28BFD84C00C471CD /* Tests_iOSLaunchTests.swift */; };
-		9A5B017528BFD84C00C471CD /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B017428BFD84C00C471CD /* Tests_macOS.swift */; };
-		9A5B017728BFD84C00C471CD /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B017628BFD84C00C471CD /* Tests_macOSLaunchTests.swift */; };
 		9A5B017828BFD84C00C471CD /* ReactiveWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B015028BFD84A00C471CD /* ReactiveWeatherApp.swift */; };
 		9A5B017928BFD84C00C471CD /* ReactiveWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B015028BFD84A00C471CD /* ReactiveWeatherApp.swift */; };
-		9A5B017A28BFD84C00C471CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B015128BFD84A00C471CD /* ContentView.swift */; };
-		9A5B017B28BFD84C00C471CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B015128BFD84A00C471CD /* ContentView.swift */; };
 		9A5B017C28BFD84C00C471CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B015228BFD84C00C471CD /* Assets.xcassets */; };
 		9A5B017D28BFD84C00C471CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5B015228BFD84C00C471CD /* Assets.xcassets */; };
+		9AB1037028C268AD0036CC25 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1036F28C268AD0036CC25 /* CitiesView.swift */; };
+		9AB1037128C268AD0036CC25 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1036F28C268AD0036CC25 /* CitiesView.swift */; };
+		9AB1037328C26E130036CC25 /* CitiesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037228C26E130036CC25 /* CitiesStore.swift */; };
+		9AB1037428C26E130036CC25 /* CitiesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037228C26E130036CC25 /* CitiesStore.swift */; };
+		9AB1037628C2715D0036CC25 /* CitiesIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037528C2715D0036CC25 /* CitiesIntent.swift */; };
+		9AB1037728C2715D0036CC25 /* CitiesIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037528C2715D0036CC25 /* CitiesIntent.swift */; };
+		9AB1037928C271B60036CC25 /* CitiesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037828C271B60036CC25 /* CitiesState.swift */; };
+		9AB1037A28C271B60036CC25 /* CitiesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037828C271B60036CC25 /* CitiesState.swift */; };
+		9AB1037C28C273250036CC25 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037B28C273250036CC25 /* City.swift */; };
+		9AB1037D28C273250036CC25 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037B28C273250036CC25 /* City.swift */; };
+		9AB1037F28C277050036CC25 /* CitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037E28C277050036CC25 /* CitiesManager.swift */; };
+		9AB1038028C277050036CC25 /* CitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1037E28C277050036CC25 /* CitiesManager.swift */; };
+		9AB1038628C375910036CC25 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1038528C375910036CC25 /* SearchBar.swift */; };
+		9AB1038728C375910036CC25 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1038528C375910036CC25 /* SearchBar.swift */; };
+		9AB1038928C38F480036CC25 /* TextField+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1038828C38F480036CC25 /* TextField+bind.swift */; };
+		9AB1038A28C38F480036CC25 /* TextField+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1038828C38F480036CC25 /* TextField+bind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +48,20 @@
 
 /* Begin PBXFileReference section */
 		9A5B015028BFD84A00C471CD /* ReactiveWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveWeatherApp.swift; sourceTree = "<group>"; };
-		9A5B015128BFD84A00C471CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A5B015228BFD84C00C471CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A5B015728BFD84C00C471CD /* ReactiveWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5B015D28BFD84C00C471CD /* ReactiveWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5B015F28BFD84C00C471CD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9A5B016428BFD84C00C471CD /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A5B016828BFD84C00C471CD /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		9A5B016A28BFD84C00C471CD /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		9A5B017028BFD84C00C471CD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A5B017428BFD84C00C471CD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		9A5B017628BFD84C00C471CD /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9AB1036F28C268AD0036CC25 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		9AB1037228C26E130036CC25 /* CitiesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesStore.swift; sourceTree = "<group>"; };
+		9AB1037528C2715D0036CC25 /* CitiesIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesIntent.swift; sourceTree = "<group>"; };
+		9AB1037828C271B60036CC25 /* CitiesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesState.swift; sourceTree = "<group>"; };
+		9AB1037B28C273250036CC25 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		9AB1037E28C277050036CC25 /* CitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesManager.swift; sourceTree = "<group>"; };
+		9AB1038528C375910036CC25 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		9AB1038828C38F480036CC25 /* TextField+bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+bind.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +101,6 @@
 			children = (
 				9A5B014F28BFD84A00C471CD /* Shared */,
 				9A5B015E28BFD84C00C471CD /* macOS */,
-				9A5B016728BFD84C00C471CD /* Tests iOS */,
-				9A5B017328BFD84C00C471CD /* Tests macOS */,
 				9A5B015828BFD84C00C471CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				9A5B015028BFD84A00C471CD /* ReactiveWeatherApp.swift */,
-				9A5B015128BFD84A00C471CD /* ContentView.swift */,
 				9A5B015228BFD84C00C471CD /* Assets.xcassets */,
+				9AB1036F28C268AD0036CC25 /* CitiesView.swift */,
+				9AB1037228C26E130036CC25 /* CitiesStore.swift */,
+				9AB1037528C2715D0036CC25 /* CitiesIntent.swift */,
+				9AB1037828C271B60036CC25 /* CitiesState.swift */,
+				9AB1037B28C273250036CC25 /* City.swift */,
+				9AB1037E28C277050036CC25 /* CitiesManager.swift */,
+				9AB1038428C3757A0036CC25 /* CommonViews */,
+				9AB1038B28C38F4C0036CC25 /* Extensions */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -123,22 +141,20 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		9A5B016728BFD84C00C471CD /* Tests iOS */ = {
+		9AB1038428C3757A0036CC25 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
-				9A5B016828BFD84C00C471CD /* Tests_iOS.swift */,
-				9A5B016A28BFD84C00C471CD /* Tests_iOSLaunchTests.swift */,
+				9AB1038528C375910036CC25 /* SearchBar.swift */,
 			);
-			path = "Tests iOS";
+			path = CommonViews;
 			sourceTree = "<group>";
 		};
-		9A5B017328BFD84C00C471CD /* Tests macOS */ = {
+		9AB1038B28C38F4C0036CC25 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9A5B017428BFD84C00C471CD /* Tests_macOS.swift */,
-				9A5B017628BFD84C00C471CD /* Tests_macOSLaunchTests.swift */,
+				9AB1038828C38F480036CC25 /* TextField+bind.swift */,
 			);
-			path = "Tests macOS";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +173,8 @@
 			dependencies = (
 			);
 			name = "ReactiveWeather (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "ReactiveWeather (iOS)";
 			productReference = 9A5B015728BFD84C00C471CD /* ReactiveWeather.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +267,8 @@
 				Base,
 			);
 			mainGroup = 9A5B014A28BFD84A00C471CD;
+			packageReferences = (
+			);
 			productRefGroup = 9A5B015828BFD84C00C471CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5B017A28BFD84C00C471CD /* ContentView.swift in Sources */,
+				9AB1037028C268AD0036CC25 /* CitiesView.swift in Sources */,
+				9AB1037F28C277050036CC25 /* CitiesManager.swift in Sources */,
 				9A5B017828BFD84C00C471CD /* ReactiveWeatherApp.swift in Sources */,
+				9AB1038928C38F480036CC25 /* TextField+bind.swift in Sources */,
+				9AB1037C28C273250036CC25 /* City.swift in Sources */,
+				9AB1038628C375910036CC25 /* SearchBar.swift in Sources */,
+				9AB1037928C271B60036CC25 /* CitiesState.swift in Sources */,
+				9AB1037628C2715D0036CC25 /* CitiesIntent.swift in Sources */,
+				9AB1037328C26E130036CC25 /* CitiesStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5B017B28BFD84C00C471CD /* ContentView.swift in Sources */,
+				9AB1037128C268AD0036CC25 /* CitiesView.swift in Sources */,
+				9AB1038028C277050036CC25 /* CitiesManager.swift in Sources */,
 				9A5B017928BFD84C00C471CD /* ReactiveWeatherApp.swift in Sources */,
+				9AB1038A28C38F480036CC25 /* TextField+bind.swift in Sources */,
+				9AB1037D28C273250036CC25 /* City.swift in Sources */,
+				9AB1038728C375910036CC25 /* SearchBar.swift in Sources */,
+				9AB1037A28C271B60036CC25 /* CitiesState.swift in Sources */,
+				9AB1037728C2715D0036CC25 /* CitiesIntent.swift in Sources */,
+				9AB1037428C26E130036CC25 /* CitiesStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5B016B28BFD84C00C471CD /* Tests_iOSLaunchTests.swift in Sources */,
-				9A5B016928BFD84C00C471CD /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5B017728BFD84C00C471CD /* Tests_macOSLaunchTests.swift in Sources */,
-				9A5B017528BFD84C00C471CD /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
